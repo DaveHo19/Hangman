@@ -9,4 +9,4 @@
 ## Preview
 ## Installation
 ## About 
-##### The hangman application is developed using Python programming language. The GUI of the application is constructed using tkinter. 
+The hangman application is developed using Python programming language. The GUI of the application is constructed using tkinter. 
