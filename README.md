@@ -1,1 +1,2 @@
-# Python_Hangman
+# Hangman in Python
+## Description
