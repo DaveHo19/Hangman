@@ -3,9 +3,9 @@
 * A simple Hangman game implemented using Python!
 * Contains a simple UI for player to play it!
 ## Table of Contents
-* [Preview](Preview)
-* [Installation](Installation)
-* [About](About)
+* [Preview](#Preview)
+* [Installation](#Installation)
+* [About](#About)
 ## Preview
 ## Installation
 ## About 
