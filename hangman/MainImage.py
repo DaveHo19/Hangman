@@ -23,6 +23,9 @@ class MainImage:
         else:          
             self.currImageID = imageId
             self.mainCanvas.itemconfig(self.imageCanvas, image=self.imageList[self.currImageID])
+            
+    def leaveGameImage(self):
+        self.mainCanvas.pack_forget()
     
 
         

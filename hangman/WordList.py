@@ -1,4 +1,4 @@
-animalList = [
+wordList = [
     'ant','ape',
     'bar','bear','bee','bird','buffalo', 'bull',
     'cat', 'cheetah','chicken','cow',
@@ -22,5 +22,5 @@ animalList = [
     'zebra'
 ]
 
-def GetAnimalList():
-    return animalList
+def GetWordList():
+    return wordList
