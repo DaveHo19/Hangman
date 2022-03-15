@@ -1,3 +1,4 @@
+#generate list of words, may use file 
 wordList = [
     'ant','ape',
     'bar','bear','bee','bird','buffalo', 'bull',
@@ -22,5 +23,6 @@ wordList = [
     'zebra'
 ]
 
+#get the list of words
 def GetWordList():
     return wordList
