@@ -37,7 +37,7 @@
 * The python library required will be:
   * Tkinter
 ## About The Application
-The hangman application is developed using Python programming language in Visual Studio Code. The GUI of the application is constructed using tkinter. The concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. 
+The hangman application is developed using Python programming language in Visual Studio Code. The GUI of the application is constructed using tkinter. The main concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. For more details, check on [Development Concept](Development-Concept)
 
 ## Development Concept
 The concept of develop the 'Hangman' application is based on the step below:
