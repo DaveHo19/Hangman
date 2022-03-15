@@ -44,16 +44,16 @@ The concept of develop the 'Hangman' application is based on the step below:
 * Create a list of words 
 * Create player lifes to indicate how many chances to enter wrong answer. 
 * Randomly choose one of the words from the list created and store into ```selectedWord```
-* Create a ```displayedWord``` and set the string value to list of ```*``` based on ```selectedWord``` length 
-  * Example: if ```selectedWord``` is ```apple```, then the ```displayWord``` will be ```*****```.  
+* Create a ```displayedWord``` and set the string value to list of ```-``` based on ```selectedWord``` length 
+  * Example: if ```selectedWord``` is ```apple```, then the ```displayWord``` will be ```-----```.  
 * Implement player input checking method to avoid player enter unrelevant character such as number or symbols, and avoid enter repeated character. 
   * Examples of unrelevant character: *, /, =, 1, 3 etc
 * Implement checking answer method after the alphabet entered by player and check it with selected word.
-  * If the alphabet entered is matched, replace the ```*``` in ```displayWord``` to the correct alphabet, the life will remain unchange.
+  * If the alphabet entered is matched, replace the ```-``` in ```displayWord``` to the correct alphabet, the life will remain unchange.
   * If the alphabet entered is not matched, decrease the player lifes. 
 * Next, check on the player lifes.
   * If the player lifes reach 0, the correct answer will shown and player able to play next game. 
   * If the player lifes above 0, proceed to next step.
 * Then, check if there is still a ```*``` in ```displayedWord``` to determine player able to enter next character or not. 
-  * If there are no ```*``` in the ```displayedWord```, the correct answer will shown and player able to play next game.
+  * If there are no ```-``` in the ```displayedWord```, the correct answer will shown and player able to play next game.
 
