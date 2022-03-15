@@ -46,8 +46,8 @@ The concept of develop the 'Hangman' application is based on the step below:
 * Randomly choose one of the words from the list created and store into ```selectedWord```
 * Create a ```displayedWord``` and set the string value to list of ```-``` based on ```selectedWord``` length 
   * Example: if ```selectedWord``` is ```apple```, then the ```displayWord``` will be ```-----```.  
-* Implement player input checking method to avoid player enter unrelevant character such as number or symbols, and avoid enter repeated character. 
-  * Examples of unrelevant character: *, /, =, 1, 3 etc
+* Implement player input checking method to avoid player enter unrelevant character such as number, and avoid enter repeated character. 
+  * Examples of unrelevant character: 1, 3 etc
 * Implement checking answer method after the alphabet entered by player and check it with selected word.
   * If the alphabet entered is matched, replace the ```-``` in ```displayWord``` to the correct alphabet, the life will remain unchange.
   * If the alphabet entered is not matched, decrease the player lifes. 
