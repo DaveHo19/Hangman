@@ -6,7 +6,7 @@
 * [Preview](#Preview)
 * [Installation](#Installation)
 * [About The Application](#About-The-Application)
-* [Development Concept](#Development-Concept)
+* [Development Procedure](#Development-Procedure)
 ## Preview
 ![main](https://user-images.githubusercontent.com/100736557/157576943-c9576d97-e1a5-4816-b310-29aab4af0724.PNG)
 * The first scene open the application. 
@@ -37,10 +37,10 @@
 * The python library required will be:
   * Tkinter
 ## About The Application
-The hangman application is developed using Python programming language in Visual Studio Code. The GUI of the application is constructed using tkinter. The main concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. For more details, check on [Development Concept](#Development-Concept)
+The hangman application is developed using Python programming language in Visual Studio Code. The GUI of the application is constructed using tkinter. The main concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. For more details, check on [Development Concept](#Development-Procedure)
 
-## Development Concept
-The concept of develop the 'Hangman' application is based on the step below:
+## Development Procedure
+The procedure of develop the 'Hangman' application is based on the step below:
 * Create a list of words 
 * Create player lifes to indicate how many chances to enter wrong answer. 
 * Randomly choose one of the words from the list created and store into ```selectedWord```
