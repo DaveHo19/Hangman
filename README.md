@@ -1,12 +1,14 @@
 # Hangman
-## Description
+## Short Description
 * A simple Hangman game implemented using Python!
 * Contains a simple UI for player to play it!
+
 ## Table of Contents
 * [Preview](#Preview)
 * [Installation](#Installation)
 * [About The Application](#About-The-Application)
 * [Development Procedure](#Development-Procedure)
+
 ## Preview
 ![main](https://user-images.githubusercontent.com/100736557/157576943-c9576d97-e1a5-4816-b310-29aab4af0724.PNG)
 * The first scene open the application. 
@@ -36,8 +38,13 @@
 ```https://github.com/DaveHo19/Python-Hangman.git```
 * The python library required will be:
   * Tkinter
+
+
 ## About The Application
-The hangman application is developed using Python programming language in Visual Studio Code. The GUI of the application is constructed using tkinter. The main concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. For more details, check on [Development Concept](#Development-Procedure)
+The hangman application is developed using Python programming language in Visual Studio Code. 
+The GUI of the application is constructed using tkinter. 
+The main concept applied to implement hangman is random, which applied to random select a sentences based on vocabulary list provided. 
+For more details, check on [Development Procedure](#Development-Procedure)
 
 ## Development Procedure
 The procedure of develop the 'Hangman' application is based on the step below:
