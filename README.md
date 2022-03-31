@@ -32,7 +32,7 @@
 
 
 ## Installation
-* You can download the file using ```git clone``` using HTTPS or 
+* You can download the file using ```git clone``` with HTTPS or 
 ```https://github.com/DaveHo19/Python-Hangman.git```
 * The python library required will be:
   * Tkinter
